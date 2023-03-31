@@ -1,0 +1,21 @@
+﻿<Window x:Class="SrtToDataGridWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SrtToDataGridWpf"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <DataGrid x:Name="dataGrid" AutoGenerateColumns="False" AlternatingRowBackground="LightGreen"
+                  FontFamily="Arial Unicode MS">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Id" Binding="{Binding Id}" />
+                <DataGridTextColumn Header="Inicio" Binding="{Binding Inicio}" />
+                <DataGridTextColumn Header="Fin" Binding="{Binding Fin}" />
+                <DataGridTextColumn Header="Subtitulo" Binding="{Binding Subtitulo}">
+                </DataGridTextColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</Window>
