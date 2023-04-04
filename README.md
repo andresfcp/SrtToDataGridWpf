@@ -1,4 +1,3 @@
-![SrtToDataGrid](https://user-images.githubusercontent.com/65383172/229676504-fe0dc2d0-825c-4552-bbe8-a48f1b70ed08.jpg)
 # Srt To DataGrid WPF
 
 Ejemplo simple para cargar un archivo srt de subtitulos en un DataGrid en un proyecto de WPF.
@@ -58,3 +57,8 @@ En el archivo XAML debemos agregar dentro de la etiqueta Grid:
 ```
 
 En el código de C# se encuentra todo muy bien explicado.
+
+
+## INTERFAZ
+![SrtToDataGrid](https://user-images.githubusercontent.com/65383172/229676504-fe0dc2d0-825c-4552-bbe8-a48f1b70ed08.jpg)
+Una vez ejecutado el programaveremos los subítulos en en DataGrid tal como se ve en la imagen anterior.
