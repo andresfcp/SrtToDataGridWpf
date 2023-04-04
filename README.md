@@ -1,3 +1,4 @@
+![SrtToDataGrid](https://user-images.githubusercontent.com/65383172/229676504-fe0dc2d0-825c-4552-bbe8-a48f1b70ed08.jpg)
 # Srt To DataGrid WPF
 
 Ejemplo simple para cargar un archivo srt de subtitulos en un DataGrid en un proyecto de WPF.
