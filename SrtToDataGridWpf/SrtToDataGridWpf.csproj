@@ -8,6 +8,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="acortes.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
     <None Update="media\archivo.srt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </None>
